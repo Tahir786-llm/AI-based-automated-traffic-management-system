@@ -1,0 +1,9 @@
+flask
+flask-graphql
+graphene
+flask-cors
+tensorflow
+opencv-python
+numpy
+pandas
+streamlit

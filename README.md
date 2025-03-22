@@ -1,2 +1,16 @@
-# AI-based-automated-traffic-management-system
-This project is an AI-powered Traffic Management System designed to optimize traffic flow in high-congestion areas using computer vision, real-time analytics, and machine learning. It dynamically adjusts traffic signals, detects violations, and predicts congestion patterns to improve urban mobility.
+# 🚦 AI-Based Automated Traffic Management System
+
+## 📌 Description
+An AI-powered system for **real-time traffic monitoring**, **dynamic signal control**, and **congestion prediction**.
+
+## 🔹 Tech Stack
+- **Backend:** Flask, GraphQL
+- **Frontend:** HTML, CSS, JavaScript
+- **AI/ML:** TensorFlow, OpenCV
+- **Database:** PostgreSQL (Planned)
+- **Deployment:** Docker, AWS
+
+## 🚀 Setup & Run
+```sh
+pip install -r backend/requirements.txt
+python backend/app.py
