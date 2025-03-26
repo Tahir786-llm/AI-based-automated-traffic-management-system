@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traffic Dashboard</title>
+    <title>AI Traffic Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>AI Traffic Monitoring</h1>
-    <p>Real-time congestion tracking</p>
+
+    <header>
+        <h1 class="glow-text">🚦 AI Traffic Management System</h1>
+    </header>
+
+    <main>
+        <div class="dashboard-container">
+            <h2>Real-Time Traffic Status</h2>
+            <p>Monitor and analyze live traffic congestion</p>
+            <button onclick="getTrafficData()">Check Traffic Status</button>
+            <div class="traffic-result" id="result">Awaiting Data...</div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
