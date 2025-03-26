@@ -1,5 +1,70 @@
+/* Google Font for Futuristic Look */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #0ff; /* Neon Cyan */
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header Styling */
+header {
+    background: #222;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.7);
+}
+
+/* Glowing Text Effect */
+.glow-text {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #00ffff, 0 0 30px #00ccff;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 30px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+/* Button Styling */
+button {
+    background: #0ff;
+    color: #111;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+button:hover {
+    background: #00ccff;
+    box-shadow: 0 0 20px #00ccff;
+}
+
+/* Traffic Result Box */
+.traffic-result {
+    margin-top: 20px;
+    font-size: 18px;
+    background: rgba(0, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .dashboard-container {
+        width: 95%;
+        padding: 20px;
+    }
+}
+
